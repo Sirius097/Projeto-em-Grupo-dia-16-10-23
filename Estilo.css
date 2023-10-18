@@ -1,3 +1,17 @@
+#exemplo01{
+    background-color: rgb(73, 219, 100);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.rick{
+    text-align: center;
+}
+body{background-color: white;}
 #pai{
     background-color: rgb(219, 155, 73);
     height: 300px;
@@ -14,19 +28,11 @@
 .filha-02{
     
 }
-#exemplo01{
-    background-color: rgb(73, 219, 100);
-    height: 200px;
-    width: 200px;
+#texto{
+    height: auto;
     position: absolute;
-    top: 50%;
-    margin-top: -100px;
-    left: 50%;
-    margin-left: -100px;
-}
-#exemplo02{
-    background-color: aquamarine;
-}
-.rick{
-    text-align: center;
+    top: 70%;
+    left: 20%;
+    right: 20%;
+    margin-bottom:10% ;
 }

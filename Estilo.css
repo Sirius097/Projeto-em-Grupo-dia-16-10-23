@@ -30,3 +30,17 @@
 .rick{
     text-align: center;
 }
+.obrigado-img {
+    position: absolute;
+    height: 400px;
+   width: 400px;
+   top: 50%;
+   left: 50%;
+   margin-left: -200px;
+   margin-top: -200px;
+
+}
+
+#menu{
+    
+}

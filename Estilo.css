@@ -9,4 +9,19 @@
     height: 200px;
     width: 200px;
     position: absolute;
+  
+}
+.filha-02{
+    
+}
+#exemplo01{
+    background-color: rgb(73, 219, 100);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+.rick{
+    text-align: center;
 }

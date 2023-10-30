@@ -8,16 +8,29 @@
 </head>
 <body>
   <h2 class="rick">Essa é a página inicial</h2>
+  <br>
  <h1 class="rick">
     Projeto sobre a propiedade CSS "Position Absolute".
- </h1>   
- <nav>
-    <a href="index.html">Página Inicial</a>
-    <a href="Pagina 2.html">Página 2</a>
-    <a href="pagina 3.html">Página 3</a>
-    <a href="Pagina 4.html">Página 4</a>
-    <a href="Pagina 5.html">Página 5</a>
-
+ </h1>
+ <br>   
+ <nav>   
+  <div class="rick">
+      <a href="Pagina 2.html">Página 2</a>
+      <a href="pagina 3.html">Página 3</a>
+      <a href="Pagina 4.html">Página 4</a>
+      <a href="Pagina 5.html">Página 5</a>
+  </div>
   </nav>
+  <br>
+  <div id="exemplo01">
+    <img src="position-absolute.png" width="300px">
+  </div>
+  <p id="rick">
+    Position absolute, ou posicionamento absoluto em português, possui dois comportamentos diferentes. O primeiro é quando o elemento com essa propriedade possui um elemento pai de valor diferente de static. Neste caso, ele terá este elemento pai como referência para ser posicionado. Todo elemento pai que tiver qualquer valor de position, menos o static, será a referência para posicionar o elemento filho absolute!
+  </p>
+  <p id="rick">
+    O segundo comportamento é quando o elemento com position absolute não tem elemento pai, ou este elemento pai possui position static. Nesta situação, ele irá ignorar estes elementos e será posicionado a partir do canto esquerdo superior do documento, podendo até mesmo sobrepor a eles. Ou seja, é importante utilizar o absolute tendo certeza da necessidade do seu uso (não que isso não seja necessário para os outros valores), pois ele pode desalinhar o layout da página.
+  </p>
+
 </body>
-</html>
+  </html>
